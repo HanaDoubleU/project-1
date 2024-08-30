@@ -10,6 +10,7 @@
     file name:      output.csv          -- we used Survey_Consumer_Finances.ipynb to filter the dataset to only the appropriate columns.
 
 # COLUMN HEADERS AND DESCRIPTIONS
+    YY1             Class ID
     AGE	            Age of reference person
     AGECL	        Age group of the reference person
     EDCL	        Education category of reference person

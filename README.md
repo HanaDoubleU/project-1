@@ -56,3 +56,106 @@
     SSRETINC	    Social security and pension income, 2019 dollars
     WAGEINC	        Wage and salary income, 2019 dollars
     NETWORTH	    Total net worth of household, 2019 dollars
+
+    Definitions:
+
+    age of the reference person, and categorical variable:
+    1:<35, 2:35-44, 3:45-54, 4:55-64, 5:65-74, 6:>=75
+    
+    Education of the reference person, and categorical variable:
+    1=no high school diploma/GED, 2=high school diploma or GED
+
+    marital status of the reference person: 1=married/living with partner,
+    2=neither married nor living with partner
+    3=some college or Assoc. degree, 4=Bachelors degree or higher
+
+    number of children (including natural children/step-children/
+    foster children of reference person/spouse/partner)
+
+    labor force participation: 1=working in some way, 0=not working
+    at all
+
+    life cycle variables: 1=reference person under 55 + not married/LWP + no
+    children, 2=reference person under 55 + married/LWP + no children, 3=reference person
+    under 55 + married/LWP + children, 4=reference person under 55 + not
+    married/LWP + children, 5=reference person 55 or older and working,
+    6=reference person 55 or older and not working
+
+    family structure: 1=not married/LWP + children,
+    2=not married/LWP + no children + reference person under 55,
+    3=not married/LWP + no children + reference person 55 or older,
+    4=married/LWP+ children, 5=married/LWP + no children
+
+    racecl5 1=white non-Hispanic, 2=black/African-American non-Hispanic,
+    3=Hispanic or Latino, 4=Asian, 5=Other or Multiple race
+
+    work status categories for reference person:
+    1=work for someone else, 2=self-employed/partnership,
+    3=retired/disabled + (student/homemaker/misc. not working and
+    age 65 or older), 4=other groups not working (mainly those under
+    65 and out of the labor force)
+
+    occupation classification for reference person:
+    1=managerial/professional 2=technical/sales/services,
+    3=other (incl. production/craft/repair workers, operators,
+    laborers, farmers, foresters, fishers) 4=not working
+
+    industry classifications for reference person: 1=mining + construction +
+    manufacturing, 2=transportation + communications + utilities and
+    sanitary services + wholesale trade + finance, insurance and
+    real estate, 3=agriculture + retail trade + services + public
+    administration
+
+    Census regions: 1=northeast, 2=north central, 3=south, 4=west
+
+    Urbanicity: 1=MSA, 2=non-MSA
+
+    WSAVED: 1=spending exceeded income, 2=spending equaled income,
+    3=spending less than income;
+
+    reasons for saving: 1=cant save, 2=education, 3=family, 4=home,
+    5=purchases, 6=retirement, 7=liquidity/the future, 8=investment,
+    9=no particular reason. 
+    NOTE: multiple saving reasons may be reported: here choosing only
+    first (most important) reason
+
+    Households overall expenses over last 12 months:
+    1=unusually high, 2=unusually low, 3=normal
+
+    household had any late payments in last year;
+    LATE=(X3004=5);
+    household had any payments more than 60 days past due in last year;
+    LATE60=(X3005=1)
+
+    have a payday loan
+
+    bankruptcy in the last five years
+
+    PEU knowledge of personal finance;
+    1=not at all knowledgeable...10=very knowledgeable
+
+    foreclosure
+
+    how would deal with hypothetical financial emergency?
+    (NOTE: only asked if X7510 NE 1).
+    1=borrow from others, 2=spend from own savings,
+    3=postpone payments, 4=cut back spending, 5=work more
+
+    If work more, would it be on existing job (1),
+    or on new job (2)?
+
+    quasi-liquid retirement accounts (IRAs and thrift-type accounts);
+    individual retirement accounts/Keoghs
+    account-type pension plans
+
+    total quasi-liquid: sum of IRAs, thrift accounts, and future pensions;
+    this version includes currently received benefits
+    have quasi-liquid assets: 1=yes, 0=no
+
+    other managed assets (trusts, annuities and managed investment
+    accounts in which HH has equity interest)
+    have other managed assets: 1=yes, 0=no
+
+    
+    
+

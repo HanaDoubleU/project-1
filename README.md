@@ -64,10 +64,11 @@
     
     Education of the reference person, and categorical variable:
     1=no high school diploma/GED, 2=high school diploma or GED
+    3=some college or Assoc. degree, 4=Bachelors degree or higher
 
     marital status of the reference person: 1=married/living with partner,
     2=neither married nor living with partner
-    3=some college or Assoc. degree, 4=Bachelors degree or higher
+   
 
     number of children (including natural children/step-children/
     foster children of reference person/spouse/partner)

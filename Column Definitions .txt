@@ -1,0 +1,88 @@
+Case ID: Unique identifier for each survey respondent.
+
+Age of reference person: Age of the primary respondent.
+
+Age group of the reference person: Categorized age group of the primary respondent.
+
+Education category of reference person: Highest level of education completed by the primary respondent.
+
+Highest completed grade by reference person: Specific grade level completed by the primary respondent.
+
+Family structure of household: Composition of the household (e.g., single, married, with children).
+
+Total number of children in household: Number of children living in the household.
+Marital status of reference person: Marital status of the primary respondent.
+Occupation categories for reference person: Broad categories of the primary respondent’s occupation.
+
+Occupation classification for reference person: Detailed classification of the primary respondent’s occupation.
+
+Race/ethnicity of respondent: Self-identified race/ethnicity of the primary respondent.
+Class of race of respondent: Broad classification of the respondent’s race.
+
+Alternate class of race of respondent: Alternative classification of the respondent’s race.
+
+Life cycle of reference person: Stage of life of the primary respondent (e.g., working, retired).
+
+Labor force participation of reference person: Employment status of the primary respondent.
+
+Industry classifications for reference person: Industry in which the primary respondent is employed.
+
+Total value of assets held by household, 2019 dollars: Total value of all assets owned by the household, adjusted to 2019 dollars.
+
+Total value of financial assets held by household that are invested in stock, 2019 dollars: Value of household financial assets invested in stocks, adjusted to 2019 dollars.
+
+Total value of equity in primary residence of household, 2019 dollars: Equity value in the household’s primary residence, adjusted to 2019 dollars.
+
+Total value of equity in quasi-liquid retirement assets, 2019 dollars: Equity value in retirement accounts that can be accessed with some restrictions, adjusted to 2019 dollars.
+
+Pension exists for either reference person or spouse: Indicates if either the primary respondent or their spouse has a pension.
+
+Total value of actively managed business(es), 2019 dollars: Value of businesses actively managed by the household, adjusted to 2019 dollars.
+
+Value of non-actively managed business(es), 2019 dollars: Value of businesses not actively managed by the household, adjusted to 2019 dollars.
+
+Total value of IRA/Keogh accounts, 2019 dollars: Value of IRA and Keogh retirement accounts, adjusted to 2019 dollars.
+
+Amount R would receive if they cashed in annuities, 2019 dollars: Amount the respondent would receive if they cashed in their annuities, adjusted to 2019 dollars.
+
+Amount R would receive if they cashed in trusts, 2019 dollars: Amount the respondent would receive if they cashed in their trusts, adjusted to 2019 dollars.
+
+Ratio of equity to normal income: Ratio of household equity to normal income.
+
+Have a brokerage account: Indicates if the household has a brokerage account.
+
+Ratio of monthly mortgage payments to monthly income: Ratio of monthly mortgage payments to monthly household income.
+
+Ratio of monthly debt payments to monthly income: Ratio of monthly debt payments to monthly household income.
+
+Ratio of total debt to total income: Ratio of total household debt to total household income.
+
+Respondent’s knowledge of personal finances: Self-assessed knowledge of personal finances by the respondent.
+
+Reason for saving: can’t save: Indicates if the respondent saves for the reason of not being able to save.
+
+Reason for saving: education: Indicates if the respondent saves for education purposes.
+
+Reason for saving: family: Indicates if the respondent saves for family-related reasons.
+
+Reason for saving: home: Indicates if the respondent saves for home-related purposes.
+
+Reason for saving: purchases: Indicates if the respondent saves for making purchases.
+
+Reason for saving: retirement: Indicates if the respondent saves for retirement.
+
+Reason for saving: liquidity/the future: Indicates if the respondent saves for liquidity or future needs.
+
+Reason for saving: investment: Indicates if the respondent saves for investment purposes.
+Reason for saving: no particular reason: Indicates if the respondent saves without a specific reason.
+
+Total amount of income of household, 2019 dollars: Total household income, adjusted to 2019 dollars.
+
+Income percentile groups: Categorized income percentile groups of the household.
+
+Alternate income percentile groups: Alternative categorization of income percentile groups.
+
+Social security and pension income, 2019 dollars: Income from social security and pensions, adjusted to 2019 dollars.
+
+Wage and salary income, 2019 dollars: Income from wages and salaries, adjusted to 2019 dollars.
+Total net worth of household, 2019 dollars: Total net worth of the household, adjusted to 2019 dollars.

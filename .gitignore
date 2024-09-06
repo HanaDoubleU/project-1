@@ -1,3 +1,7 @@
+# adding .DS_Store
+.DS_Store
+config.py
+
 # Bekah's api_keys.py file
 api_keys.py
 

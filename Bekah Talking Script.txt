@@ -1,0 +1,27 @@
+	FIRST SLIDE (intro)
+
+I used matpolotlib to explore the retirement accounts themselves as compared to various potential financial impacts.
+
+All the retirement figures you'll see here represent quasi-liquid retirement assets only, so think 401k/pension. No physical assets like homes or cash equivalents like checking/savings will be included in the retirement figures.
+
+	NEXT SLIDE (code)
+
+The first thing we noticed is that we needed to remove outliers from this dataset. You can see from the printed min/max numbers that our original dataset went up to $130 million in retirement, which is obviously going to be an outlier. As you can see, our upper bound after removing outliers fell to $375k.
+
+	NEXT SLIDE (graph 4)
+
+How do student loan payments affect retirement savings? You can see here the original dataset and how far-flung this data is. You can see the retirement assets up to 130mil, and also the monthly student loan payments up to 16k, which feels a bit crazy to me and is obviously also outlier data.
+
+	CLICK (graph 4 - part 2)
+
+This is the limited dataframe without retirement outliers, and I manually reduced the student loan payments to a max of 2k.
+
+	NEXT SLIDE (graph 5)
+
+How does occupation type affect retirement savings? This graph lays out the retirement savings by age for each of the four occupation classifications offered by our dataset. You can see we used the limited dataset, without the outliers, so the average retirement savings topped out around 75k.
+
+	NEXT SLIDE (graph 6)
+
+How does home ownership affect retirement savings? This graph shows the full retirement savings from our limited dataset - and please remember these are the quasi-liquid savings only. So no physical homes are represented by the numerical data. But, of the $712 million total savings in that limited dataset, 90% of those retirement dollars were owned by individuals who also own a home. 
+
+I'll let Augustin speak to the analysis of these different graphs.

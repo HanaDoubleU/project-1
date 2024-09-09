@@ -1,162 +1,66 @@
 # project-1
 
-# ORIGINAL DATASET INFORMATION
-    url:            https://www.federalreserve.gov/econres/scfindex.htm
-    link to file:   "CSV extract data (2 MB ZIP)"
+ 
+The pie chart reveals that total retirement assets for individuals with home equity are significantly higher compared to those without.
+     the higher total retirement assets among individuals with home equity can be linked to various financial behaviors and demographic factors. Homeownership often contributes to financial stability, which can enhance retirement savings. However, it's also crucial to account for other factors and individual circumstances that might influence retirement asset accumulation.
+    the higher percentage of total retirement assets for individuals with home equity is largely due to the financial stability, disciplined savings behavior, and increased wealth accumulation associated with homeownership. These factors create a favorable environment for building retirement assets, contrasting with the financial challenges often faced by renters.
 
-    file name:      SCFP2022.csv     -- We uploaded a copy of this csv on 8-30-2024.
+    The higher total retirement assets observed for individuals with home equity can be attributed to different financial behaviors, and potentially advantageous demographic factors. Understanding these factors can provide insight into the broader financial landscape and the role of homeownership in retirement planning.
 
-# CLEANED DATASET INFORMATION
-    file name:      output.csv          -- we used Survey_Consumer_Finances.ipynb to filter the dataset to only the appropriate columns.
 
-# COLUMN HEADERS AND DESCRIPTIONS
-    AGE	            Age of reference person
-    AGECL	        Age group of the reference person
-    EDCL	        Education category of reference person
-    EDUC	        Highest completed grade by reference person
-    FAMSTRUCT	    Family structure of household
-    KIDS	        Total number of children in household
-    MARRIED	        Marital status of reference person
-    OCCAT1	        Occupation categories for reference person
-    OCCAT2	        Occupation classification for reference person
-    RACE	        Race/ethnicity of respondent
-    RACECL	        Class of race of respondent
-    RACECL4	        Alternate class of race of respondent
-    LIFECL	        Life cycle of reference person
-    LF	            Labor force participation of reference person
-    INDCAT	        Industry classifications for reference person
-    ASSET	        Total value of assets held by household, 2019 dollars
-    EQUITY	        Total value of financial assets held by household that are invested in stock, 2019 dollars
-    HOMEEQ	        Total value of equity in primary residence of household, 2019 dollars
-    RETEQ	        Total value of equity in quasi-liquid retirement assets, 2019 dollars
-    ANYPEN	        Pension exists for either reference person or spouse
-    ACTBUS	        Total value of actively managed business(es), 2019 dollars
-    NONACTBUS	    Value of non-actively managed business(es), 2019 dollars
-    IRAKH	        Total value of IRA/Keogh accounts, 2019 dollars
-    ANNUIT      	Amount R would receive if they cashed in annuities, 2019 dollars
-    TRUSTS	        Amount R would receive if they cashed in trusts, 2019 dollars
-    EQUITINC	    ratio of equity to normal income
-    HBROK	        have a brokerage account
-    PIRMORT	        ratio of monthly mortgage payments to monthly income
-    PIRTOTAL	    Ratio of monthly debt payments to monthly income
-    DEBT2INC	    Ratio of total debt to total income
-    KNOWL	        Respondent's knowledge of personal finances
-    SAVRES1	        Reason for saving: can't save
-    SAVRES2	        Reason for saving: education
-    SAVRES3	        Reason for saving: family
-    SAVRES4	        Reason for saving: home
-    SAVRES5	        Reason for saving: purchases
-    SAVRES6	        Reason for saving: retirement
-    SAVRES7	        Reason for saving: liquidity/the future
-    SAVRES8	        Reason for saving: investment
-    SAVRES9	        Reason for saving: no particular reason
-    INCOME	        Total amount of income of household, 2019 dollars
-    INCCAT	        Income percentile groups
-    INCPCTLECAT	    Alternate income percentile groups
-    SSRETINC	    Social security and pension income, 2019 dollars
-    WAGEINC	        Wage and salary income, 2019 dollars
-    NETWORTH	    Total net worth of household, 2019 dollars
+ 
 
-    Definitions:
 
-    age of the reference person, and categorical variable:
-    1:<35, 2:35-44, 3:45-54, 4:55-64, 5:65-74, 6:>=75
-    
-    Education of the reference person, and categorical variable:
-    1=no high school diploma/GED, 2=high school diploma or GED
-    3=some college or Assoc. degree, 4=Bachelors degree or higher
+This scatter plot shows the anomalies between the total retirement assets ,monthly student loan payments and age group.
 
-    marital status of the reference person: 1=married/living with partner,
-    2=neither married nor living with partner
-   
+    Younger Age Groups: Face a strong negative relationship between student loan payments and retirement assets due to the financial strain of early career stages and high debt levels. This underscores the need for targeted financial planning and debt management strategies
 
-    number of children (including natural children/step-children/
-    foster children of reference person/spouse/partner)
+    Middle Age Groups (40-60): Exhibit a flattening trend as student loans are reduced and retirement savings increase, reflecting a shift toward improved financial stability. This phase is critical for enhancing retirement contributions and ensuring long-term financial health.
+•    Older Age Groups (60-90): Generally show lower student loan payments and higher retirement assets, but some outliers with high student loan payments suggest ongoing financial responsibilities, such as supporting family members. This highlights the complexity of retirement planning when faced with extended financial obligations.
 
-    labor force participation: 1=working in some way, 0=not working
-    at all
 
-    life cycle variables: 1=reference person under 55 + not married/LWP + no
-    children, 2=reference person under 55 + married/LWP + no children, 3=reference person
-    under 55 + married/LWP + children, 4=reference person under 55 + not
-    married/LWP + children, 5=reference person 55 or older and working,
-    6=reference person 55 or older and not working
 
-    family structure: 1=not married/LWP + children,
-    2=not married/LWP + no children + reference person under 55,
-    3=not married/LWP + no children + reference person 55 or older,
-    4=married/LWP+ children, 5=married/LWP + no children
 
-    racecl5 1=white non-Hispanic, 2=black/African-American non-Hispanic,
-    3=Hispanic or Latino, 4=Asian, 5=Other or Multiple race
 
-    work status categories for reference person:
-    1=work for someone else, 2=self-employed/partnership,
-    3=retired/disabled + (student/homemaker/misc. not working and
-    age 65 or older), 4=other groups not working (mainly those under
-    65 and out of the labor force)
 
-    occupation classification for reference person:
-    1=managerial/professional 2=technical/sales/services,
-    3=other (incl. production/craft/repair workers, operators,
-    laborers, farmers, foresters, fishers) 4=not working
 
-    industry classifications for reference person: 1=mining + construction +
-    manufacturing, 2=transportation + communications + utilities and
-    sanitary services + wholesale trade + finance, insurance and
-    real estate, 3=agriculture + retail trade + services + public
-    administration
 
-    Census regions: 1=northeast, 2=north central, 3=south, 4=west
 
-    Urbanicity: 1=MSA, 2=non-MSA
 
-    WSAVED: 1=spending exceeded income, 2=spending equaled income,
-    3=spending less than income;
 
-    reasons for saving: 1=cant save, 2=education, 3=family, 4=home,
-    5=purchases, 6=retirement, 7=liquidity/the future, 8=investment,
-    9=no particular reason. 
-    NOTE: multiple saving reasons may be reported: here choosing only
-    first (most important) reason
 
-    Households overall expenses over last 12 months:
-    1=unusually high, 2=unusually low, 3=normal
 
-    household had any late payments in last year;
-    LATE=(X3004=5);
-    household had any payments more than 60 days past due in last year;
-    LATE60=(X3005=1)
 
-    have a payday loan
 
-    bankruptcy in the last five years
 
-    PEU knowledge of personal finance;
-    1=not at all knowledgeable...10=very knowledgeable
 
-    foreclosure
+ 
 
-    how would deal with hypothetical financial emergency?
-    (NOTE: only asked if X7510 NE 1).
-    1=borrow from others, 2=spend from own savings,
-    3=postpone payments, 4=cut back spending, 5=work more
+Bar line shows a big difference through (Age Group) based on the average quasi-liquid retirement assets and average retirement assets by occupation category
 
-    If work more, would it be on existing job (1),
-    or on new job (2)?
+    Among all age groups, those in the managerial/professional occupation category have more in their retirement assets. 
 
-    quasi-liquid retirement accounts (IRAs and thrift-type accounts);
-    individual retirement accounts/Keoghs
-    account-type pension plans
 
-    total quasi-liquid: sum of IRAs, thrift accounts, and future pensions;
-    this version includes currently received benefits
-    have quasi-liquid assets: 1=yes, 0=no
+    The Trends between the technical/sales/services and other occupation categories are relatively similar.
 
-    other managed assets (trusts, annuities and managed investment
-    accounts in which HH has equity interest)
-    have other managed assets: 1=yes, 0=no
+    The amount in retirement assets for those who are in the "not working" occupation category increases with age because older ages in this category are probably retirees. There is a decrease in their retirement assets after the 65-74 age group because these age groups are probably retirees spending what is saved in their retirement
 
-    
-    
+
+This chart shows the reasons individuals save for retirement across various age groups.
+•    The age group 55-64 is the most active in saving for retirement and future liquidity. This likely reflects the proximity to retirement age, leading individuals in this group to prioritize retirement savings and financial security.
+•    Younger age groups (<35) are more likely to save for a home, while those in middle and older age groups focus on liquidity and retirement.
+•    While the ability to save is generally consistent across most age groups, younger individuals (under 35) face more significant challenges in this area. This could be attributed to factors such as lower income levels, higher student loan debt, or other financial pressures that disproportionately affect younger adults.
+ 
+This chart compares total income versus reasons for saving and spending patterns. It shows how average income correlates with different reasons for saving, as well as how spending relates to income in these cases.
+•    Spending less than income dominates most categories, particularly for those saving for liquidity/future and saving for a home, indicating that individuals in these groups are effectively managing their finances.
+•    Individuals saving for liquidity/future tend to have much higher incomes, which may give them more flexibility to save.
+•    There is a small subset of individuals across categories whose spending exceeded income, suggesting financial strain or overspending behaviors, but these cases are relatively few compared to those managing to spend less than they earn.
+ 
+
+This chart explores how different education levels correlate with reasons for saving. 
+•    Higher education correlates with financial preparedness: Individuals with a Bachelor's degree or higher are more likely to save for retirement and liquidity needs, and fewer of them report being unable to save.
+•    Lack of planning is common among less educated groups: Those with no high school education have higher rates of no listed savings reasons and more individuals unable to save. This suggests that lower education levels may be associated with financial challenges.
+•    Liquidity and retirement dominate: Across most education levels, saving for liquidity and retirement are the primary reasons for saving, highlighting their importance in financial planning.
+•    Home and investment savings are relatively low across all education groups, suggesting that these may not be primary concerns for most people in comparison to future financial security.
+
 
